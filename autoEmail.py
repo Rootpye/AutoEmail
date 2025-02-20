@@ -6,9 +6,11 @@ from email.mime.multipart import MIMEMultipart
 # Email configuration
 SMTP_Server = 'smtp.gmail.com'
 SMTP_Port = 587
-SMTP_Username = 'kimpenguin4300@gmail.com'
-# You need to make app password in your google account!!
-SMTP_Password = "zukg qyku nfrl oygo"
+# This is sample email address and 'app password'.
+#
+# You need to make 'app password' in your google account!
+SMTP_Username = 'your_email@gmail.com'
+SMTP_Password = "abcd efgh ijkl mnop"
 
 
 # Send email function
@@ -31,5 +33,5 @@ def send_email(subject, body, to):
     except Exception as e:
         print('Something went wrong...', e)
 
-# Test
-send_email("Test", "This is a test email.", "cdam0075@gmail.com")
+# Send email
+send_email("Test", "This is a test email.", "receiver@gmail.com")
