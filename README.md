@@ -1,4 +1,5 @@
 # autoEmail
+automatic email send program working on terminal
 
 # requirements
 - app password
