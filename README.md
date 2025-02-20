@@ -16,5 +16,5 @@ SMTP_Password = 'abcd efgh ijkl mnop'
 fix receiver@gmail.com to receivers gmail
 ```python
 send_email("Test", "This is a test email.", "receiver@gmail.com
-"
+")
 ```
