@@ -6,7 +6,7 @@ automatic email send program working on terminal
 - gmail
 
 # Quick Start
-1.install autoGmail.py
+1. install autoGmail.py
 
 2. fix Username and Password to your google account and your 'app password'
 ```python
