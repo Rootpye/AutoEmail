@@ -11,6 +11,14 @@ SMTP_Port = 587
 SMTP_Username = 'your_email@gmail.com'
 SMTP_Password = "abcd efgh ijkl mnop"
 
+def user_input_reciever():
+    input("Enter the email address of the reciever: ")
+
+def user_input_subject():    
+    input("Enter the subject of the email: ")
+
+def user_input_body():   
+    input("Enter the body of the email: ")
 
 # Send email function
 def send_email(subject, body, to):
