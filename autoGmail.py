@@ -2,7 +2,6 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-
 # Email configuration
 SMTP_Server = 'smtp.gmail.com'
 SMTP_Port = 587
@@ -11,9 +10,10 @@ SMTP_Port = 587
 SMTP_Username = 'your_email@gmail.com'
 SMTP_Password = "abcd efgh ijkl mnop"
 
-reciever = input("Who will recieve email? : ")
-title = input("What is title of email? : ")
-content = input("Enter body of email : ")
+# Get information to user
+to = input("Enter recievers' email address: ")
+subject = input("Enter subject of email : ")
+body = input("Enter body of email : ")
 
 # Send email function
 def send_email(subject, body, to):
@@ -36,4 +36,4 @@ def send_email(subject, body, to):
         print('Something went wrong...', e)
 
 # Send email
-send_email("Test", "This is a test email.", "receiver@gmail.com")
+send_email(subject, body, to)
