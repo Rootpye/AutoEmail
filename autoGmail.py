@@ -6,8 +6,8 @@ from email.mime.multipart import MIMEMultipart
 SMTP_Server = 'smtp.gmail.com'
 SMTP_Port = 587
 # This is sample email address and 'app password'.
-# You need to make 'app password' in your google account!
 SMTP_Username = 'your_email@gmail.com'
+# You need to make 'app password' in your google account!
 SMTP_Password = "abcd efgh ijkl mnop"
 
 # Get information to user
