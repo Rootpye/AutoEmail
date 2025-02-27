@@ -11,7 +11,7 @@ SMTP_Username = 'your_email@gmail.com'
 SMTP_Password = "abcd efgh ijkl mnop"
 
 # Get information to user
-to = input("Enter recievers' email address: ")
+to = input("Enter reciever's email address: ")
 subject = input("Enter subject of email : ")
 body = input("Enter body of email : ")
 
